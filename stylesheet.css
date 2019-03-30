@@ -1,5 +1,32 @@
 html {
-  background-color: white;
+  background: linear-gradient(27deg, #ffffff, #7e9fff, #aff0b9, #ffffc3);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 42s ease infinite;
+  animation: AnimationName 42s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 57%;
+  }
+  50% {
+    background-position: 100% 44%;
+  }
+  100% {
+    background-position: 0% 57%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 57%;
+  }
+  50% {
+    background-position: 100% 44%;
+  }
+  100% {
+    background-position: 0% 57%;
+  }
 }
 
 .logo {
@@ -48,7 +75,7 @@ html {
   font-family: ten-mincho, serif;
   font-style: normal;
   font-weight: 800;
-  background-image: url(https://github.com/Takenoha/TakenohaProject/blob/master/back1.JPG?raw=true);
+  background-image: url(Takenoha_Project_01/img/back1.jpg);
 }
 
 .what_is_this_b {
@@ -180,7 +207,7 @@ footer {
 
 .box {
   text-align: center;
-  background-color: #fffcdc;
+  background-color: #dcfdff;
 }
 
 .Btn {
@@ -217,3 +244,31 @@ footer {
   font-weight: 800;
   font-size: 30px;
 }
+
+.boxc {
+  border: 4px solid #82636b;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  font-family: ten-mincho, serif;
+  font-style: normal;
+  font-weight: 800;
+  background-color: #248;
+  color: white;
+}
+
+.boxc_1 {
+  margin-top: 5px;
+  border: 4px solid #05004d;
+  font-family: ten-mincho, serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  background: #2980B9;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(#6DD5FA), to(rgba(0, 107, 179, 0.801)));
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, rgba(0, 107, 179, 0.801));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*# sourceMappingURL=style1.css.map */
